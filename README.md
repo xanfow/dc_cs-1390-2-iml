@@ -11,6 +11,11 @@ Traditional music recommendation systems rely heavily on collaborative filtering
 GTZAN Dataset (pre-labelled) @ https://www.kaggle.com/datasets/andradaolteanu/gtzan-dataset-music-genre-classification
 
 ## Requirements
-**I recommend uploading this repo to GDrive and then using Google Colab with T4 GPU runtime to most accurately replicate the results I achieved.**
-
-With that said, the model can obviously be downloaded and executed remotely/locally, and will require the following dependencies to be installed on the system:
+The model can be downloaded and executed remotely/locally in a conda environment running on Windows WSL, MacOS, or any major Linux distro. The required dependencies to be installed on the environment beforehand are:
+1. NumPy
+2. Pandas
+3. Matplotlib
+4. Seaborn
+5. Librosa
+6. Scikit-Learn
+7. TensorFlow (GPU version)
